@@ -81,6 +81,9 @@ func DayTwoPartOne(input string, safeReports int) int {
 	return 1 + safeReports
 }
 
+func dayTwoPartTwo(input string, safeReports int) int {
+}
+
 // Parse a single string into a int slice.
 func parseString(s string) []int {
 	fields := strings.Fields(s)
